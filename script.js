@@ -18,7 +18,6 @@ CloseMenu.addEventListener("click", () => {
 Scrollup.addEventListener("click", () => {
   window.scrollTo(0, 0);
 });
-`¬`;
 
 // scroll reveal effects
 ScrollReveal().reveal(".Home h6", {
@@ -32,7 +31,7 @@ ScrollReveal().reveal(".Home h1", {
   reset: true,
 });
 ScrollReveal().reveal(".Home p", {
-  delay: 700,
+  delay: 600,
   origin: "bottom",
   reset: true,
 });
@@ -58,25 +57,25 @@ ScrollReveal().reveal(".Svgimage", {
   reset: true,
 });
 ScrollReveal().reveal(".p1", {
-  delay: 600,
+  delay: 400,
   origin: "right",
   reset: true,
 });
 ScrollReveal().reveal(".p2", {
-  delay: 700,
+  delay: 450,
   reset: true,
 });
 ScrollReveal().reveal(".p3", {
-  delay: 800,
+  delay: 500,
   reset: true,
 });
 ScrollReveal().reveal(".p4", {
-  delay: 900,
+  delay: 550,
   origin: "right",
   reset: true,
 });
 ScrollReveal().reveal(".p5", {
-  delay: 950,
+  delay: 600,
   origin: "right",
   reset: true,
 });
