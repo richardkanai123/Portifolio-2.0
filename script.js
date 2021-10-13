@@ -18,6 +18,7 @@ CloseMenu.addEventListener("click", () => {
 Scrollup.addEventListener("click", () => {
   window.scrollTo(0, 0);
 });
+`¬`;
 
 // scroll reveal effects
 ScrollReveal().reveal(".Home h6", {
