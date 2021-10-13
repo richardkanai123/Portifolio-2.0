@@ -1,196 +1,536 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google" content="notranslate"/>
-    <meta name="Description" content="Owner:Richard Kanai">
-    <meta name="description" content="RIchard Kanai Portifolio Website-Web development skills and tools-Contact ">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google" content="notranslate" />
+    <meta name="Description" content="Owner:Richard Kanai" />
+    <meta
+      name="description"
+      content="RIchard Kanai Portifolio Website-Web development skills and tools-Contact "
+    />
     <title>Richard Kanai Portifolio - Front-End Web-Developer</title>
-    <link rel="shortcut icon" href="/mylogo.png" type="image/x-icon">
-    <link rel="apple-touch-icon" href="/mylogo.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="Wrapper">
-     <!-- header with nav and logo -->
-    <header class="FlexCenter">
+    <link rel="shortcut icon" href="/mylogo.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/mylogo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+
+  <body>
+    <div class="Wrapper">
+      <!-- header with nav and logo -->
+      <header class="FlexCenter load-hidden">
         <div class="logo">
-            <a href="#">
-                <img src="mylogo.png" alt="logo">
-            </a>
+          <a href="#">
+            <img src="mylogo.png" alt="logo" />
+          </a>
         </div>
         <nav class="FlexCenter">
-            <ul class="FlexCenter">
-                <li><a class="link" href="#">Home</a></li>
-                <li><a href="#About" class="link">About</a></li>
-                <li><a href="#Projects" class="link">Projects</a></li>
-                <li><a href="#Testimonial" class="link">Testimonial</a></li>
-                <li><a href="#Contact" class="link">Contact</a></li>
-            </ul>
-            <a href="/Richard's Resume.pdf" target="_blank" class="link link-btn">Resume</a>
+          <ul class="FlexCenter">
+            <li><a class="link" href="#">Home</a></li>
+            <li><a href="#About" class="link">About</a></li>
+            <li><a href="#Projects" class="link">Projects</a></li>
+            <li><a href="#Testimonial" class="link">Testimonial</a></li>
+            <li><a href="#Contact" class="link">Contact</a></li>
+          </ul>
+
+          <a href="/Richard's Resume.pdf" target="_blank" class="link link-btn"
+            >Resume
+          </a>
+
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round"></span>
+          </label>
         </nav>
 
-
         <div class="MenuToggler" id="MenuToggler">
-            <i class="fas fa-bars"></i>
+          <i class="fas fa-bars"></i>
         </div>
+      </header>
 
-    </header>
-
-    <!-- Home div -->
-    <div class="Home FlexCol" id="Home">
+      <!-- Home div -->
+      <div class="Home FlexCol" id="Home">
         <div class="container FlexCol">
-            <h6>Hello, I am</h6>
-            <h1>Richard Kanai.</h1>
-            <p>I am a passionate, Front-End Web Developer.</p>
-            <p>I love creating responsive websites that offer 
-                convinience and great user experience.
-            </p>
-            <a href="#Contact" class="link link-btn">Contact me</a>
-
+          <h6 class="load-hidden">Hello, I am</h6>
+          <h1 class="load-hidden">Richard Kanai.</h1>
+          <p class="load-hidden">I am a passionate, Front-End Web Developer.</p>
+          <p>
+            I love creating responsive websites that offer convinience and great
+            user experience.
+          </p>
+          <a href="#Contact" class="link link-btn">Contact me</a>
         </div>
 
-        <div class="footer FlexCenter"> 
-            <a href="https://github.com/richardkanai123" target="_blank"><i class="bi bi-github link"></i></a>
-            <a href="https://www.linkedin.com/in/richardkanai001/" target="_blank"><i class="bi bi-linkedin link"></i></a>
-            <a href="https://www.instagram.com/richardkanai.dev/" target="_blank"><i class="bi bi-instagram link"></i></a>
-            <a href="mailto:richardkanainjeri@gmail.com" target="_blank"><i class="bi bi-envelope-fill link"></i></a>
-            <a href="tel:+254719484455"><i class="bi bi-telephone-fill link"></i></a>
+        <div class="footer FlexCenter">
+          <a href="https://github.com/richardkanai123" target="_blank"
+            ><i class="bi bi-github link"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/richardkanai001/" target="_blank"
+            ><i class="bi bi-linkedin link"></i
+          ></a>
+          <a href="https://www.instagram.com/richardkanai.dev/" target="_blank"
+            ><i class="bi bi-instagram link"></i
+          ></a>
+          <a href="mailto:richardkanainjeri@gmail.com" target="_blank"
+            ><i class="bi bi-envelope-fill link"></i
+          ></a>
+          <a href="tel:+254719484455"
+            ><i class="bi bi-telephone-fill link"></i
+          ></a>
         </div>
-    </div>
+      </div>
 
-    <!-- About and skills -->
-    <div class="About FlexCenter" id="About">
-        <div class="AboutPic FlexCol">
-            <img src="/richard-bg.png" alt="Richard Kanai Photo Loading">
-            <div class="skills">
-                <h4>Skills and Tools</h4>
-                <div class="skills-list">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Bootstrap</li>
-                    <li>Javascript</li>
-                    <li>Jquery</li>
-                    <li>Wordpress</li>
-                    <li>Shopify</li>
-                    <li>Firebase</li>
-                    <li>Netlify</li>
-                    <li>Git</li>
-                    <li>Github</li>
-                    <li>npm</li>
-                </div>
+      <!-- About and skills -->
+      <div class="About FlexCenter" id="About">
+        <div class="AboutPic FlexCol load-hidden">
+          <img src="/richard-bg.png" alt="Richard Kanai Photo Loading" />
+          <div class="skills">
+            <h4>Skills and Tools</h4>
+            <div class="skills-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+              <li>Javascript</li>
+              <li>Jquery</li>
+              <li>Wordpress</li>
+              <li>Shopify</li>
+              <li>Firebase</li>
+              <li>Netlify</li>
+              <li>Git</li>
+              <li>Github</li>
+              <li>npm</li>
             </div>
+          </div>
         </div>
 
-        <div class="AboutInfo">
-            <h2>About  Me</h2>
-            <p>I am Richard Kanai, a self-taught front-end web developer skilled in the latest skills in HTML, CSS and Javascript. I started learning coding in 2017 while taking my computer science course at Masinde Muliro University of Science and Technology, Kenya and fell in love with it. 
-                I desired to build sites that work conveniently and efficiently. 
-                This desire dates back to my high school years.
-            </p>
-            <p>
-                I am Richard Kanai, a self-taught front-end web developer skilled in the latest skills in HTML, CSS and Javascript. I started learning coding in 2017 while taking Bachelor of Science in Computer science at Masinde Muliro University of Science and Technology, Kenya and fell in love with it. I desired to build stuff that works conveniently and efficiently.
-                 This desire dates back to my high school years.
-            </p>
-            <p>
-                I combine my problem-solving skills, engineering and programming skills in all my work.
-            </p>
-            <p>
-                I enjoy creating websites the help a user achieve specified goals conveniently. I also love integrating APIs into websites for data usage and management. I tutor students who are getting started with web development. I use Firebase for most backend needs of my projects and Netlify for hosting.
-            </p>
-            <p>
-                I am currently learning React to advance on my front-end skills.
-            </p>
+        <div class="AboutInfo load-hidden">
+          <h2>About Me</h2>
+          <p>
+            I am Richard Kanai, a self-taught front-end web developer skilled in
+            the latest skills in HTML, CSS and Javascript. I started learning
+            coding in 2017 while taking my computer science course at Masinde
+            Muliro University of Science and Technology, Kenya and fell in love
+            with it. I desired to build sites that work conveniently and
+            efficiently. This desire dates back to my high school years.
+          </p>
+          <p>
+            I am Richard Kanai, a self-taught front-end web developer skilled in
+            the latest skills in HTML, CSS and Javascript. I started learning
+            coding in 2017 while taking Bachelor of Science in Computer science
+            at Masinde Muliro University of Science and Technology, Kenya and
+            fell in love with it. I desired to build stuff that works
+            conveniently and efficiently. This desire dates back to my high
+            school years.
+          </p>
+          <p>
+            I combine my problem-solving skills, engineering and programming
+            skills in all my work.
+          </p>
+          <p>
+            I enjoy creating websites the help a user achieve specified goals
+            conveniently. I also love integrating APIs into websites for data
+            usage and management. I tutor students who are getting started with
+            web development. I use Firebase for most backend needs of my
+            projects and Netlify for hosting.
+          </p>
+          <p>
+            I am currently learning React to advance on my front-end skills.
+          </p>
 
-            <a href="#Projects" class="link link-btn">Projects</a>
+          <a href="#Projects" class="link link-btn">Projects</a>
         </div>
-
-    </div>
-    <!-- Projects -->
-    <div class="Projects" id="Projects"></div>
-    <!-- Testimonial -->
-    <div class="Testimonial FlexCol" id="Testimonial">
-        <h3>Clients say:</h3>
-        <div class="TestWrapper">
-            <div class="Test FlexCol">
-                <h6>Ms. Mercy</h6>
-                <span>Business Lady, Kenya.
-                    <i>Contact: <a href="mailto:mercychepngetich97@gmail.com" class="link"> Email</a></i>
-                </span>
-                <p>
-                    I reached out to Richard about an e-commerce website for my business.
-                     He was so keen to guide me on the requirements, available options, and the best technologies. I highly recommend anyone looking for a web developer or consultation to reach out to him.
-                </p>
-            </div>
-    
-            <div class="Test FlexCol">
-                <h6>Ms. Faith Wangui</h6>
-              <span>
-                    IT student, KCA University, Kenya.
-                    <i>Contact: <a href="mailto:faithkuimash@gmail.com" target="_blank" class="link"> Email</a></i>
-                </span>
-                <p>
-                    Richard assisted me to understand the basics of web development via his online tutoring program using zoom. The examples and explanations he offered greatly helped me in passing my web development class.
-                     I would recommend any web development students reach out to him whenever classwork or assignments get tough. 
-                </p>
-            </div>
-    
-    
-            <div class="Test FlexCol">
-                <h6>Ms. Melody Mukami</h6>
-                <span>
-                    Business Owner @
-                    <i><a href="https://iyana-beads.myshopify.com/" target="_blank" rel="noopener noreferrer" class="link">Iyana Beads</a></i>
-                </span>
-                <p>
-                    I was in need of a website for my business. I wanted to sell my products online. I contacted Richard to enquire about the process of making my business succeed online.
-                    He was essesntial in offering advise and ideas on how to develop a website and was kind enough to make a mock website to illustrate how this could be possible.
-                    Anybody looking for ths kind of assitance will be absolutely lucky to have his help.
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- Contact -->
-    <div class="Contact FlexCenter" id="Contact">
-        <div class="ContactForm FlexCol">
-            <h5>Contact me, I respond as soon as possible...</h5>
-            <form name="Contact Form" class="FlexCol" netlify>
-                <label for="YourName"> Your Name</label>
-                <input type="text" name="YourName" id="YourName" placeholder="Enter your name" required>
-                <label for="YourEmail">Your Email</label>
-                <input type="email" name="YourEmail" id="YourEmail" placeholder="Your Email Address">
-                <textarea name="Message" id="" cols="20" rows="10" placeholder="Your Message"></textarea>
-                <button type="submit">Send</button>
-            </form>
-
-            <section class="FlexCenter">
-                <a href="https://github.com/richardkanai123" target="_blank"><i class="bi bi-github"></i></a>
-                <a href="https://www.linkedin.com/in/richardkanai001/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                <a href="https://www.instagram.com/richardkanai.dev/" target="_blank"><i class="bi bi-instagram"></i></a>
-                <a href="mailto:richardkanainjeri@gmail.com" target="_blank"><i class="bi bi-envelope-fill"></i></a>
-                <a href="tel:+254719484455"><i class="bi bi-telephone-fill"></i></a>
+      </div>
+      <!-- Projects -->
+      <div class="Projects" id="Projects">
+        <h2>> Recent Works ></h2>
+        <div class="WorksWrapper FlexCol">
+          <div class="ProjectHolder FlexCenter p1 load-hidden">
+            <section>
+              <h1>Food Recipe Search Site</h1>
+              <img
+                src="./Project Shots/hotel site shot.jpg"
+                alt="Recipe Site image"
+              />
             </section>
+            <section class="FlexCol">
+              <p>
+                This is website used to make orders in a hotel. It allows
+                customers create account, view the menu, place orders and see
+                the progress of their orders in the processing chain. The
+                original design of the site is from canva templates which I
+                decided to use and upgrade.
+              </p>
+              <p>
+                It has an admin panel on which the admin(hotel owner) can view
+                and manage orders. Admin panel can be accessed by logging in
+                using admin credentials. Below is a sample log in credential for
+                a customer:
+              </p>
+
+              <p>
+                <span>email:tester1@test.com </span> <br />
+
+                <span>password: test1234</span>
+                <br />
+                This site uses FIREBASE as the backend, that is, database,
+                storage and user authentication.
+
+                <i
+                  >Highly recommend reading the Github readme file for more
+                  information.</i
+                >
+              </p>
+
+              <ul class="techUsed FlexCenter">
+                <li>Firebase</li>
+                <li>E-Commmerce Site</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Async Javascript</li>
+              </ul>
+
+              <div class="Connections FlexCenter">
+                <a
+                  href="https://sundaybitesite.web.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Open Web
+                </a>
+                <a
+                  href="https://github.com/richardkanai123/Modern-Hotel-Ordering-Site"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="bi bi-github"></i>
+                </a>
+              </div>
+            </section>
+          </div>
+
+          <div class="ProjectHolder FlexCenter p2 load-hidden">
+            <section>
+              <h1>Richtonics Electronics Shop Site</h1>
+              <img src="./Project Shots/Richtonics shop.png" alt="" />
+            </section>
+            <section class="FlexCol">
+              <p>
+                This is a front end only project I did for an electronic shop
+                website. This site displays products and their prices and
+                description and has a working cart where one can add products.
+                It also shows the total cost of item on the cart. Items on the
+                site can be filtered depending on type thus making it easier for
+                one to search a particular item. This site is Responsive.
+              </p>
+
+              <ul class="techUsed FlexCenter">
+                <li>E-Commmerce Site</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Async Javascript</li>
+              </ul>
+
+              <div class="Connections FlexCenter">
+                <a
+                  href="https://richtonicshop.netlify.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Open Web
+                </a>
+                <a
+                  href="https://github.com/richardkanai123/Ecommerce-site-"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="bi bi-github"></i>
+                </a>
+              </div>
+            </section>
+          </div>
+
+          <div class="ProjectHolder FlexCenter p3 load-hidden">
+            <section>
+              <h1>Chirp Landing Page Clone</h1>
+              <img
+                src="./Project Shots/Chirp landing page.png"
+                alt="CovidSite image Loading"
+              />
+            </section>
+            <section class="FlexCol">
+              <p>
+                This is a challenge on Codewell to create a clone for Twitter's
+                Chirp landing page. The design images to the website are offered
+                freely and I used the to create this site, hosted on netlify.
+              </p>
+
+              <ul class="techUsed FlexCenter">
+                <li>Landing Page</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+              </ul>
+
+              <div class="Connections FlexCenter">
+                <a
+                  href="https://codewellchirpclonesite.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Open Web
+                </a>
+                <a
+                  href="https://github.com/richardkanai123/CodeWell-Chirp-Landing-page-Challenge"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="bi bi-github"></i>
+                </a>
+              </div>
+            </section>
+          </div>
+
+          <div class="ProjectHolder FlexCenter p4 load-hidden">
+            <section>
+              <h1>Covid Africa Site</h1>
+              <img
+                src="./Project Shots/CovidAfrica.png"
+                alt="CovidSite image Loading"
+              />
+            </section>
+            <section class="FlexCol">
+              <p>
+                This is a responsive website that uses the Covid 19 Public Api
+                by MMedia to show Covid statitics in a country the user inputs
+                in the search box. It shows the some information about a
+                country, cases, deaths, fully and partially vaccinated people
+                and shows percentage of the vaccinated population in a country.
+                <br />
+                <i
+                  >Note: Searching for a country outside Africa gives results
+                  too but the table in the site shows numbers for African
+                  Countries only.</i
+                >
+              </p>
+
+              <ul class="techUsed FlexCenter">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Async Javascript</li>
+                <li>Covid API</li>
+              </ul>
+
+              <div class="Connections FlexCenter">
+                <a
+                  href="https://africacovid19tracker.netlify.app//"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Open Web
+                </a>
+                <a
+                  href="https://github.com/richardkanai123/Covid19Africa-Tracker"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="bi bi-github"></i>
+                </a>
+              </div>
+            </section>
+          </div>
+
+          <div class="ProjectHolder FlexCenter p5 load-hidden">
+            <section>
+              <h1>Food Recipe Search Site</h1>
+              <img
+                src="./Project Shots/Food Recipe.png"
+                alt="Recipe Site image"
+              />
+            </section>
+            <section class="FlexCol">
+              <p>
+                A responsive site on which you can get a variety of recipes when
+                you search for a particular food item such as chicken, rice,
+                banana etc... The site will show you a title, dish type,
+                cuisine, amount of calories in the dish, the meal type and the
+                nutrient content of the dish. It will also provide a link for
+                you to view the recipe to prepare the dish.
+                <br />
+                <i>This is made possible by the Edamam Recipe API</i>
+              </p>
+
+              <ul class="techUsed FlexCenter">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Async Javascript</li>
+                <li>Recipe API</li>
+              </ul>
+
+              <div class="Connections FlexCenter">
+                <a
+                  href="https://kanairecipesearch.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Open Web
+                </a>
+                <a
+                  href="https://github.com/richardkanai123/Recipe_Search"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="bi bi-github"></i>
+                </a>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial -->
+      <div class="Testimonial FlexCol" id="Testimonial">
+        <h3>Clients say:</h3>
+        <div class="TestWrapper load-hidden">
+          <div class="Test FlexCol">
+            <h6>Ms. Mercy</h6>
+            <span
+              >Business Lady, Kenya.
+              <i
+                >Contact:
+                <a href="mailto:mercychepngetich97@gmail.com" class="link">
+                  Email</a
+                ></i
+              >
+            </span>
+            <p>
+              I reached out to Richard about an e-commerce website for my
+              business. He was so keen to guide me on the requirements,
+              available options, and the best technologies. I highly recommend
+              anyone looking for a web developer or consultation to reach out to
+              him.
+            </p>
+          </div>
+
+          <div class="Test FlexCol">
+            <h6>Ms. Faith Wangui</h6>
+            <span>
+              IT student, KCA University, Kenya.
+              <i
+                >Contact:
+                <a
+                  href="mailto:faithkuimash@gmail.com"
+                  target="_blank"
+                  class="link"
+                >
+                  Email</a
+                ></i
+              >
+            </span>
+            <p>
+              Richard assisted me to understand the basics of web development
+              via his online tutoring program using zoom. The examples and
+              explanations he offered greatly helped me in passing my web
+              development class. I would recommend any web development students
+              reach out to him whenever classwork or assignments get tough.
+            </p>
+          </div>
+
+          <div class="Test FlexCol">
+            <h6>Ms. Melody Mukami</h6>
+            <span>
+              Business Owner @
+              <i
+                ><a
+                  href="https://iyana-beads.myshopify.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="link"
+                  >Iyana Beads</a
+                ></i
+              >
+            </span>
+            <p>
+              I was in need of a website for my business. I wanted to sell my
+              products online. I contacted Richard to enquire about the process
+              of making my business succeed online. He was essesntial in
+              offering advise and ideas on how to develop a website and was kind
+              enough to make a mock website to illustrate how this could be
+              possible. Anybody looking for ths kind of assitance will be
+              absolutely lucky to have his help.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Contact -->
+      <div class="Contact FlexCenter" id="Contact">
+        <div class="ContactForm FlexCol load-hidden">
+          <h5>Contact me, I respond as soon as possible...</h5>
+          <form name="Contact Form" class="FlexCol" netlify>
+            <label for="YourName"> Your Name</label>
+            <input
+              type="text"
+              name="YourName"
+              id="YourName"
+              placeholder="Enter your name"
+              required
+            />
+            <label for="YourEmail">Your Email</label>
+            <input
+              type="email"
+              name="YourEmail"
+              id="YourEmail"
+              placeholder="Your Email Address"
+            />
+            <textarea
+              name="Message"
+              id=""
+              cols="20"
+              rows="10"
+              placeholder="Your Message"
+            ></textarea>
+            <button type="submit">Send</button>
+          </form>
+
+          <section class="FlexCenter">
+            <a href="https://github.com/richardkanai123" target="_blank"
+              ><i class="bi bi-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/richardkanai001/"
+              target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/richardkanai.dev/"
+              target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="mailto:richardkanainjeri@gmail.com" target="_blank"
+              ><i class="bi bi-envelope-fill"></i
+            ></a>
+            <a href="tel:+254719484455"><i class="bi bi-telephone-fill"></i></a>
+          </section>
         </div>
 
-        <div class="Svgimage">
-            <img src="/contact.svg" alt="contact Loading">
+        <div class="Svgimage load-hidden">
+          <img src="/contact.svg" alt="contact Loading" />
         </div>
-    </div>
+      </div>
 
-
-    <footer>
+      <footer>
         <p>All rights reserved @ Richard Kanai</p>
-    </footer>
-</div>
-    <span class="Scrolup">
-        <i class="bi bi-arrow-up-square-fill"></i>
+      </footer>
+    </div>
+    <span class="Scrolup load-hidden">
+      <i class="bi bi-arrow-up-square-fill"></i>
     </span>
 
-    
-    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
